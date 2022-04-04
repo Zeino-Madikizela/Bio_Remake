@@ -29,13 +29,15 @@
             android:textSize="34sp"
             android:textStyle="bold" />
 
-        <TextView
+        <EditText
             android:id="@+id/enterHobby"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:ems="10"
             android:hint="@string/enterHobbyHint"
-            android:paddingTop="20dp"
-            android:textColorHint="#78909C" />
+            android:inputType="textPersonName"
+            android:paddingTop="50dp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <Button
             android:id="@+id/doneButton"
@@ -49,6 +51,7 @@
             android:text="@string/doneButton" />
 
         <ScrollView
+            style="@style/ElonMuskStyle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingVertical="20dp"
