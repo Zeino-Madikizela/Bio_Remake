@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void addHobbies(View view){
         frontBinder.hobbiesText.setText("Hobbies : " + frontBinder.enterHobby.getText().toString().trim()  );
+        frontBinder.invalidateAll();
         frontBinder.hobbiesText.setVisibility(View.VISIBLE);
 
         // Hide keyboard
