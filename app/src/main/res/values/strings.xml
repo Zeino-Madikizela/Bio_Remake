@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Bio Remake</string>
     <string name="name">Elon Musk</string>
-    <string name="enterHobbyHint"> Enter hobby here </string>
-    <string name="doneButton">               Done</string>
+    <string name="enterHobbyHint"> Enter your hobbies </string>
+    <string name="doneButton"> Done </string>
+    <string name="hobbyText"> Hobbies</string>
     <string name="Elon_Musk_Bio">born June 28, 1971, Pretoria, South Africa, South African-born American entrepreneur who cofounded the electronic-payment firm PayPal
         and formed SpaceX, maker of launch vehicles and spacecraft. He was also one of the first significant investors in, as well as chief executive officer of, the electric
         car manufacturer Tesla.
@@ -39,4 +40,6 @@
         initial public offering raised about $226 million. Two years later Tesla introduced the Model S sedan, which was acclaimed by automotive critics for its performance and design. The company
         won further praise for its Model X luxury SUV, which went on the market in 2015. The Model 3, a less-expensive vehicle, went into production in 2017.
     </string>
+    <string name="image_description">Image android robot</string>
+    <string name="autoFillHobbies">"Swiming "</string>
 </resources>

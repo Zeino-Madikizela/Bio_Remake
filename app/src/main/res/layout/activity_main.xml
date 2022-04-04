@@ -15,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:contentDescription="@string/image_description"
             app:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
@@ -33,10 +34,12 @@
             android:id="@+id/enterHobby"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints="@string/autoFillHobbies"
             android:ems="10"
             android:hint="@string/enterHobbyHint"
             android:inputType="textPersonName"
             android:paddingTop="50dp"
+            android:textColorHint="#5C6BC0"
             tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <Button
@@ -49,6 +52,13 @@
             android:paddingLeft="50dp"
             android:paddingRight="50dp"
             android:text="@string/doneButton" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/ElonMuskStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
 
         <ScrollView
             style="@style/ElonMuskStyle"
