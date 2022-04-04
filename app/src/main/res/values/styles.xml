@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ElonMuskStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#1F243E</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="storyView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#1F243E</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>
